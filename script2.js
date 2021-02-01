@@ -38,19 +38,19 @@ function totalPrice () {
     return `Your total cost is $ ${totalCost}`
 }
 
-function getTotal(dayArray) {
-    let totalCost = 0;
+// function getTotal(dayArray) {
+//     let totalCost = 0;
 
-    for(let i=0; i < dayArray.length; i++) {
-        if (dayArray[i] === 0 || dayArray [i] === 6) {
-            totalCost += 7;
-        }
-        else {
-            totalCost += 5;
-        }
-        }
-        return totalCost;
-}
+//     for(let i=0; i < dayArray.length; i++) {
+//         if (dayArray[i] === 0 || dayArray [i] === 6) {
+//             totalCost += 7;
+//         }
+//         else {
+//             totalCost += 5;
+//         }
+//         }
+//         return totalCost;
+// }
 
 function getParkingDate(startDate, numOfDays) {
     let copyEndDate = new Date(Number(startDate))
